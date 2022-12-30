@@ -5,17 +5,6 @@ import glob
 import time
 import pathlib
 
-
-
-dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")
-print(dt)
-
-dt1 = dt.tz_localize('UTC')
-
-timezone = "Europe/Stockholm"
-dtz = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f") + " " + timezone
-print(dtz)
-
 # Give the location of your file
 #file_to_process = 'datasets/creditunion.csv'
 

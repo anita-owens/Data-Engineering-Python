@@ -25,7 +25,7 @@ query = 'from:POTUS -is:retweet'
 # get max. 100 tweets
 tweets = client.search_recent_tweets(query=query, 
                                     tweet_fields=['author_id', 'created_at'],
-                                     max_results=10)
+                                     max_results=20)
 
 
 # Save data as dictionary
