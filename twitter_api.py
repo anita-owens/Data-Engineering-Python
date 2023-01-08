@@ -20,12 +20,16 @@ client = tweepy.Client( bearer_token=bearer_token,
                         return_type = requests.Response,
                         wait_on_rate_limit=True)
 # Define query
-query = 'from:POTUS -is:retweet'
+#query = 'from:POTUS -is:retweet'
+#query = 'from:StockholmAnita'
+query = 'from:mdancho84 -is:retweet'
+
 
 # get max. 100 tweets
 tweets = client.search_recent_tweets(query=query, 
-                                    tweet_fields=['author_id', 'created_at'],
+                                    tweet_fields=['author_id', 'created_at', 'context_annotations'],
                                      max_results=20)
+
 
 
 # Save data as dictionary
