@@ -5,9 +5,9 @@ import pandas as pd
 
 
 def download_file():
-    url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv'
+    url = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/bachelorette/bachelorette.csv'
     # Define the local filename to save data
-    local_file = 'datasets/us-counties.csv'
+    local_file = 'datasets/bachelorette.csv'
 
     # Make http request for remote file data
     data = requests.get(url)
@@ -17,6 +17,7 @@ def download_file():
         file.write(data.content)
     return local_file
 
+#download_file()
 
 def extract_from_csv(): 
     fname = download_file()
@@ -26,3 +27,4 @@ def extract_from_csv():
 
 
 extract_from_csv()
+
