@@ -13,6 +13,8 @@ print("Number of people in space:",people_json['number'])
 for p in people_json['people']:
     print(p['name'])
 
+# ! to do: do something
+
 parameter = {"rel_rhy":"jingle"}
 request = requests.get('https://api.datamuse.com/words',parameter)
 rhyme_json = request.json()
