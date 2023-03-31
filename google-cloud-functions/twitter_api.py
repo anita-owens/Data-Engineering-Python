@@ -13,7 +13,11 @@ import requests
 import pandas as pd
 #import gcsfs
 
-def lookup_twitter_user(client):
+os.getcwd()
+print(os.getcwd())
+
+def lookup_twitter_user():
+#def lookup_twitter_user(client):
     client = tweepy.Client( bearer_token=os.environ.get('twitter_bearer_token'), 
                             consumer_key=os.environ.get('consumer_key'), 
                             consumer_secret=os.environ.get('consumer_secret'), 
@@ -39,5 +43,8 @@ def lookup_twitter_user(client):
 
     # Transform to pandas Dataframe
     df = pd.json_normalize(tweets_data) 
+    print(df.head(10))
 
     return tweets_dict
+
+lookup_twitter_user()

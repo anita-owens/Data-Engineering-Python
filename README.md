@@ -1,3 +1,3 @@
 # Data-Engineering-Python
 
-Adding a readme.
+This project is a collection of simple Python scripts.
