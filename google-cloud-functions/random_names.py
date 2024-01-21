@@ -1,15 +1,11 @@
 import random
-import os
-from datetime import date
-from datetime import datetime
+import datetime
 
-def env_vars(request):
-    return os.environ.get('FOO', 'Specified environment variable is not set.')
-
-def hello_pubsub(event, context):
-  names = ["Alice", "Bob", "Charlie", "Debra", "Peter", "Cora", "Robert", "Violet"]
-  today = date.today()
-  dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")
+#def hello_pubsub(event, context): #Only if using PubSub
+def hello_pubsub():
+  names = ["Daisy", "Mary", "Charlie", "Debra", "Thomas", "Cora", "Robert", "Violet", 'Matthew', 'Richard', 'Bertie', 'Shrimpie']
+  today = datetime.date.today()
+  dt = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
   def ChooseTwice(items):
       a = random.choice(items)
@@ -18,6 +14,10 @@ def hello_pubsub(event, context):
 
   (one, two) = ChooseTwice(names)
   if one == two:
-    print("%s is happy!" % one, dt)
+    print("%s is happy!" % one, today)
   else:
     print("%s likes %s!" % (one, two), dt)
+  return "Success at " + str(dt) 
+
+
+hello_pubsub()

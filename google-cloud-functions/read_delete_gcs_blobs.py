@@ -16,6 +16,7 @@ from google.cloud.storage import Client
 import pandas as pd
 import pandas_gbq
 from datetime import datetime
+import os
 
 def zipextract():
     bucket_name = 'gcf-data-sink'

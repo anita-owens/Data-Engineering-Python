@@ -1,0 +1,107 @@
+response = {
+    "businesses": [
+      {
+        "id": "ivA6aV3QZW22Jok-sb7CQg",
+        "alias": "dockside-seafood-restaurant-jacksonville-beach",
+        "name": "Dockside Seafood Restaurant",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8Yr_Fsn1Kq8b0GGpGnajZg/o.jpg",
+        "is_closed": 'false',
+        "url": "https://www.yelp.com/biz/dockside-seafood-restaurant-jacksonville-beach?adjust_creative=rdtjBtOkzZQE7_XzbAcBmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=rdtjBtOkzZQE7_XzbAcBmQ",
+        "review_count": 1296,
+        "categories": [
+          {
+            "alias": "seafood",
+            "title": "Seafood"
+          },
+          {
+            "alias": "tradamerican",
+            "title": "American (Traditional)"
+          },
+          {
+            "alias": "seafoodmarkets",
+            "title": "Seafood Markets"
+          }
+        ],
+        "rating": 4.5,
+        "coordinates": {
+          "latitude": 30.289963721428,
+          "longitude": -81.4195933781741
+        },
+        "transactions": [
+          "delivery"
+        ],
+        "price": "$$",
+        "location": {
+          "address1": "2510 2nd Ave N",
+          "address2": "",
+          "address3": "",
+          "city": "Jacksonville Beach",
+          "zip_code": "32250",
+          "country": "US",
+          "state": "FL",
+          "display_address": [
+            "2510 2nd Ave N",
+            "Jacksonville Beach, FL 32250"
+          ]
+        },
+        "phone": "+19044793474",
+        "display_phone": "(904) 479-3474",
+        "distance": 1805.6627591502283
+      },
+      {
+        "id": "9eU0ov9Hpw5ok-Od9PKLHw",
+        "alias": "tacolu-jacksonville-beach",
+        "name": "TacoLu",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vsz0ras3HtVG3RKcI3ugIw/o.jpg",
+        "is_closed": 'false',
+        "url": "https://www.yelp.com/biz/tacolu-jacksonville-beach?adjust_creative=rdtjBtOkzZQE7_XzbAcBmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=rdtjBtOkzZQE7_XzbAcBmQ",
+        "review_count": 1318,
+        "categories": [
+          {
+            "alias": "mexican",
+            "title": "Mexican"
+          },
+          {
+            "alias": "tex-mex",
+            "title": "Tex-Mex"
+          },
+          {
+            "alias": "breakfast_brunch",
+            "title": "Breakfast & Brunch"
+          }
+        ],
+        "rating": 4,
+        "coordinates": {
+          "latitude": 30.28749,
+          "longitude": -81.4101
+        },
+        "transactions": [
+          "delivery"
+        ],
+        "price": "$$",
+        "location": {
+          "address1": "1712 Beach Blvd",
+          "address2": "",
+          "address3": "",
+          "city": "Jacksonville Beach",
+          "zip_code": "32250",
+          "country": "US",
+          "state": "FL",
+          "display_address": [
+            "1712 Beach Blvd",
+            "Jacksonville Beach, FL 32250"
+          ]
+        },
+        "phone": "+19042498226",
+        "display_phone": "(904) 249-8226",
+        "distance": 996.5808578588375
+      }
+    ],
+    "total": 614,
+    "region": {
+      "center": {
+        "longitude": -81.40491485595703,
+        "latitude": 30.279813222227695
+      }
+    }
+  }
