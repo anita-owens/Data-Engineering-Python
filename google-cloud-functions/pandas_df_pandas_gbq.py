@@ -1,7 +1,7 @@
-"""import pandas
+import pandas
 import pandas_gbq
 import os
-from datetime import datetime"""
+from datetime import datetime
 
 
 def bq_load(request):

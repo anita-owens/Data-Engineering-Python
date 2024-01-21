@@ -14,7 +14,7 @@ now_ts = datetime.today()
 def zipextract(request):
     bucketname = 'gcf-data-sink'
     zipfilename_with_path = 'archive.zip' 
-    table_id = 'cloud_functions.sales_data'
+    table_id = 'cloud_functions.test_data'
     project_id =  os.environ.get['PROJECT_ID']
 
     storage_client = storage.Client()
